@@ -62,9 +62,9 @@ const SideNav = ({ toggleDarkMode }: Props): JSX.Element => {
 			<ThemeSwitcherWrapper>
 				<ToggleButton checked={isDarkMode} onChange={toggleTheme} defaultChecked={isDarkMode} />
 			</ThemeSwitcherWrapper>
-			<NavLink to={ROUTES.APPLICATION}>
-				<Logo src={'/thoughtspot.svg'} alt="ThoughtSpot" collapsed={collapsed} />
-			</NavLink>
+			<div>
+				<Logo src={'/thoughtspot.svg'} alt="ThoughtSpot" collapsed={collapsed} /> <span style={{color: 'white', fontWeight: 'bold', fontSize: '20px', marginRight: '5px'}}> Insight 360º </span>
+			</div>
 
 			<Menu
 				theme="dark"

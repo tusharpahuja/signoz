@@ -38,7 +38,7 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
 					{!isSignUpPage && <TopNav />}
 					{children}
 				</Content>
-				<Footer>{`SigNoz Inc. © ${currentYear}`}</Footer>
+				<Footer>{`ThoughtSpot Inc. © ${currentYear}`}</Footer>
 			</Layout>
 
 			<Feedback />
